@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+.text-page, .page-404 {
+    width: 100vw;
+    overflow: hidden;
+}
+
+.text-page .container, .page-404 .container {
+    margin: 190px auto 40px auto;
+    max-width: 681px;
+}
+
+.text-page .container section, .page-404 .container section {
+    margin-bottom: 60px;
+}
+
+.text-page .container section h1, .page-404 .container section h1 {
+    margin-bottom: 40px;
+    font-family: "Effra";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.text-page .container section h3, .page-404 .container section h3 {
+    margin-bottom: 40px;
+    font-family: "Effra";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.text-page .container section p, .text-page .container section ul li, .page-404 .container section p, .page-404 .container section ul li {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.text-page .container section ul, .page-404 .container section ul {
+    margin: 40px 0;
+    padding-left: 30px;
+}
+
+.text-page .container section ul li, .page-404 .container section ul li {
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+
+.text-page .container section ul li::before, .page-404 .container section ul li::before {
+    margin-right: 20px;
+    content: "ő";
+    color: #f16092;
+}
+
+.text-page .container .container, .page-404 .container .container {
+    margin-bottom: 100px;
+}
+
+.text-page .container .container .flex-box, .page-404 .container .container .flex-box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.text-page .container .container .flex-box h3, .page-404 .container .container .flex-box h3 {
+    margin-top: 81px;
+    font-family: "Effra";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.text-page .container .container .flex-box p, .page-404 .container .container .flex-box p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.text-page .container .container .flex-box button, .page-404 .container .container .flex-box button {
+    font-family: "Effra";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    max-width: 330px;
+    height: 65px;
+    width: 100%;
+    top: 587px;
+    background: #FF7D4E;
+    border-radius: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .text-page .container {
+        padding: 50px 20px 30px 20px;
+    }
+
+    .text-page .container section h1 {
+        margin-bottom: 30px;
+    }
+
+    .page-404 .container {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .text-page .container {
+        margin: 50px auto 0px auto;
+    }
+
+    .text-page .container section {
+        margin-bottom: 60px;
+    }
+
+    .text-page .container section h1 {
+        margin-bottom: 30px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .text-page .container section h3 {
+        margin-bottom: 30px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .text-page .container section p, .text-page .container section ul li {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .text-page .container section ul {
+        margin: 30px 0;
+        padding-left: 40px;
+    }
+
+    .text-page .container section ul li {
+        margin-bottom: 25px;
+    }
+
+    span {
+        display: none;
+    }
+}

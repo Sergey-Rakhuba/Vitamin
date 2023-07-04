@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <!-- Useful meta tags -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/effra-heavy?styles=16535,16534,16538,16540,16536,16537,16539,16533,16532"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/effra-heavy" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+    <link rel="stylesheet" href="assets/css/text-page.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/quiz.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/footer.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/sing-in.min.css" type="text/css" />
+    <!--<link rel="stylesheet" href="assets/css/sing-up.min.css" type="text/css" />-->
+    <link rel="stylesheet" href="assets/css/pack.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/header.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/catalogue.min.css" type="text/css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="google" content="notranslate" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="" />
+    
+    <title></title>
+  </head>
+  <body>
+    <div class="wrapper"><header id="header">
+  <div class="burger-menu">
+    <button id="burger-btn" class="burger-btn" type="button">
+      <img src="assets/images/icon/menu.png" alt="" />
+    </button>
+  </div>
+  <div class="logo">
+    <a href="index.html"
+      ><img src="assets/images/icon/logo-big.png" alt=""
+    /></a>
+  </div>
+  <div class="header__block">
+    <div class="menu__icon">
+      <a class="user-icon" href="sing-in.html"
+        ><img src="assets/images/icon/icon-user.png" alt=""
+      /></a>
+      <a href=""><img src="assets/images/icon/Cart_alert.png" alt="" /></a>
+    </div>
+    <a class="button-quiz" href="quiz-page-1.html">Take the quiz</a>
+  </div>
+</header>
+<div class="menu-burger">
+  <div class="menu-burger__header">
+    <div class="container">
+      <div class="menu-burger__block-title">
+        <button id="close-btn" type="button">
+          <img src="assets/images/icon/Close_small_black.png" alt="" />
+        </button>
+      </div>
+      <div class="menu-burger__block-title">
+        <img src="assets/images/icon/icon-user.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <div class="menu-burger__body">
+    <ul>
+      <li>
+        <a id="burger-btn-shop" href=""
+          ><h5>Shop</h5>
+          <img src="assets/images/icon/rigch-icon-grey.png" alt=""
+        /></a>
+      </li>
+      <li>
+        <a id="burger-btn-information"
+          ><h5>Information</h5>
+          <img src="assets/images/icon/rigch-icon-grey.png" alt=""
+        /></a>
+      </li>
+      <li>
+        <a class="btn-quiz" href="quiz-page-1.html">Take the quiz</a>
+      </li>
+    </ul>
+  </div>
+  <div class="menu-burger__mail">
+    <p></p>
+    <ul>
+      <li><a href="">support@medstogo.com</a></li>
+      <li>
+        <a class="vitamins" href="index.html">
+          © 2020 Vitamins.com / All rights reserved</a
+        >
+      </li>
+    </ul>
+  </div>
+</div>
+ <div id="shop-page" class="shop-page">
+  <div class="burger-menu__modal-shop">
+    <div class="menu-burger__header">
+      <div class="container">
+        <a class="left-back" id="close-btn-information">
+          <img src="assets/images/icon/Back_arrow.png" alt="" />
+        </a>
+
+        <div id="close-btn-information" class="menu-burger__block-title-shop">
+          <h3>Information</h3>
+        </div>
+      </div>
+    </div>
+    <p></p>
+    <div class="menu-burger__body">
+      <ul>
+        <li><a href="#">Vitamins & Dietary Supplements</a></li>
+        <li><a href="#">Weight Loss</a></li>
+        <li><a href="#">Minerals</a></li>
+        <li><a href="#">Antioxidants</a></li>
+        <li><a href="#">Probiotics</a></li>
+        <li><a href="#">Pain Relief</a></li>
+        <li><a href="#">Prenatal Vitamins</a></li>
+        <li class="salle"><a href="#">Sale%</a></li>
+        <a href="#">All categories</a>
+      </ul>
+    </div>
+
+    <div class="container">
+      <span></span>
+      <h2>Don’t know what vitamins your body needs?</h2>
+      <p>
+        Answer a few simple questions and automaticallyget a personalazed list
+        of vitamins in minutes
+      </p>
+      <button
+        type="button"
+        onclick="window.location.href = 'quiz-page-1.html';"
+        class="sing-up__button-create-my-account"
+      >
+        Take the quiz
+      </button>
+    </div>
+  </div>
+  <a href="quiz-page-1.html">Take the quiz</a>
+</div>
+ <div id="information" class="information">
+  <div class="burger-menu__modal-Information">
+    <div class="menu-burger__header">
+      <div class="container">
+        <a class="left-back" id="close-btn-information">
+          <img src="assets/images/icon/Back_arrow.png" alt="" />
+        </a>
+
+        <div class="menu-burger__block-title-information">
+          <h3>Information</h3>
+        </div>
+      </div>
+    </div>
+    <p></p>
+    <div class="menu-burger__body">
+      <ul>
+        <li>
+          <a href="#">Subscription Cycle & Billing</a>
+        </li>
+        <li>
+          <a href="#">Terms & Conditions</a>
+        </li>
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+        <li><a href="#">Shipping & Delivery</a></li>
+        <li><a href="#">Return Policy</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="body" class="main">
+  <section>
+    <div class="flex-box">
+      <div class="container">
+        <div class="ring">
+          <img src="assets/images/icon/Ellipse 11.png" alt="" />
+        </div>
+        <h1>Find out what <span>vitamins</span> your body needs right now.</h1>
+        <p>
+          Answer a few simple questions and automatically get a personalazed
+          list of vitamins in minutes
+        </p>
+
+        <div class="button-block"><button
+  type="button"
+  onclick="window.location.href = 'quiz-page-1.html';"
+  class="sing-up__button-create-my-account"
+>
+  Take the quiz
+</button>
+ <a class="go-to-the-shop" href="catalogue.html"
+  >Go to the shop <img src="assets/images/icon/left.png" alt=""
+/></a>
+</div>
+        <a href="text-page.html">text-page</a>
+        <a href="404.html">404</a>
+        <a href="Pack.html">pack</a>
+      </div>
+    </div>
+    <img
+      class="decor-section-1"
+      src="assets/images/icon/Ellipse 5.png"
+      alt=""
+    />
+    <div class="flex-box color__block-grey">
+      <div class="container">
+        <span class="ring-litle-orange"></span>
+        <span class="ring-big-blue"></span>
+        <img
+          class="flex-box__img"
+          src="assets/images/catalogue/image 51.png"
+          alt=""
+        />
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="flex-box color__block-blue">
+      <div class="container">
+        <span class="ring-litle-orange1"></span>
+        <h2>Healthy doesn’t have to be hard. We make it easy.</h2>
+      </div>
+    </div>
+
+    <div class="flex-box">
+      <div class="container">
+        <ul>
+          <li>
+            <img class="icon-li" src="assets/images/icon/Vector0.png" alt="" />
+            <p>Healthy doesn’t have to be hard. We make it easy.</p>
+          </li>
+          <li>
+            <img class="icon-li1" src="assets/images/icon/Vector1.png" alt="" />
+            <p>Healthy doesn’t have to be hard. We make it easy.</p>
+          </li>
+          <li>
+            <img class="icon-li2" src="assets/images/icon/vector2.png" alt="" />
+            <p>Healthy doesn’t have to be hard. We make it easy.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <img class="butels-3" src="assets/images/home/Mask Group.png" alt="" />
+  <img class="capsula-yelow" src="assets/images/home/Mask Group2.png" alt="" />
+  <section class="main__section-3">
+    <img class="decor-1" src="assets/images/icon/Ellipse 51.png" alt="" />
+    <img class="decor-2" src="assets/images/icon/Ellipse 15.png" alt="" />
+    <div class="main__heand-hair">
+      <img src="assets/images/icon/Group.png" alt="" />
+      <h1 class="main__section-3__title">
+        Tell us a little about yourself. <br />
+        We’re good listeners.
+      </h1>
+
+      <p class="main__section-3__text">
+        We'll help you create a health plan with vitamins, supplements, and more
+        that help you feel your best today and support you long-term.
+      </p>
+
+      <div class="button-block"><button
+  type="button"
+  onclick="window.location.href = 'quiz-page-1.html';"
+  class="sing-up__button-create-my-account"
+>
+  Take the quiz
+</button>
+</div>
+    </div>
+  </section>
+  <section class="main__section-4">
+    <div class="flex-block">
+      <div class="flex-element">
+        <div class="swiper-slider-card-home-page">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card-green">
+                <div class="container">
+                  <img src="assets/images/home/image 57.png" alt="" />
+                  <div class="card__text-block">
+                    <span>Minerals</span>
+                    <h3>Reacted Zinc</h3>
+                    <h4>
+                      B vitamins are essential for your nervous <br />system and
+                      proper brain functioning.
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-violet">
+                <div class="container">
+                  <img src="assets/images/home/image 80.png" alt="" />
+                  <div class="card__text-block">
+                    <span>Vitamins & Dietary Supplements</span>
+                    <h3>Ortho B Complex</h3>
+                    <h4>
+                      B vitamins are essential for your nervous <br />system and
+                      proper brain functioning.
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block-text">
+          <img src="assets/images/icon/icon67.png" alt="" />
+          <h1>What healthy and happy customer says</h1>
+          <p>
+            We'll help you create a health plan with vitamins, supplements, and
+            more that help you feel your best today and support you long-term.
+          </p>
+        </div>
+      </div>
+      <div class="flex-element-2">
+        <div class="flex-box-text">
+          <h1>Choose your products</h1>
+          <p>
+            We'll help you create a health plan with vitamins, supplements, and
+            more that help you feel your best today and support you <br />
+            long-term.
+          </p>
+          <a class="go-to-the-shop" href="catalogue.html"
+            >Go to the shop <img src="assets/images/icon/left.png" alt=""
+          /></a>
+          <img src="assets/images/icon/shutterstock_1265570230 1.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section><div class="container-card">
+  <div class="card-1">
+    <img src="assets/images/icon/Stars.png" alt="" />
+    <h5>Easy monitoring your weight goal!</h5>
+    <p>
+      Love Vitamins! The individual packets make it so easy to remember you
+      daily vitamins and makes travelling easy!!! 👍🏽
+    </p>
+    <h6><img src="assets/images/icon/user1.png" alt="" />David S.</h6>
+  </div>
+  <div class="card-2">
+    <img src="assets/images/icon/Stars.png" alt="" />
+    <h5>High quality vitamins & supplements</h5>
+    <p>
+      High quality vitamins & supplements, very easy on my stomach too. Great
+      service! I really like the flexibility and options available in the
+      subscriptions.
+    </p>
+    <h6><img src="assets/images/icon/user2.png" alt="" />Bridget T.</h6>
+  </div>
+  <div class="card-3">
+    <img src="assets/images/icon/Stars.png" alt="" />
+    <h5>I love it</h5>
+    <p>
+      I love it. It makes me feel good each morning and then it also makes me
+      feel accomplished.
+    </p>
+    <h6><img src="assets/images/icon/user3.png" alt="" />Jenna Y.</h6>
+  </div>
+</div>
+</section>
+  <section class="section-6">
+    <img class="decor-1" src="assets/images/icon/Ellipse 12.png" alt="" />
+    <img class="decor-2" src="assets/images/icon/Ellipse 16.png" alt="" />
+    <div class="flex-box">
+      <div class="container">
+        <div class="ring-icon-heand">
+          <img src="assets/images/icon/heand.png" alt="" />
+        </div>
+        <h1>Ready to get started?</h1>
+        <p>
+          We'll help you create a health plan with vitamins, supplements, and
+          more that help you feel your best today and support you long-term.
+        </p>
+
+        <div class="button-block"><button
+  type="button"
+  onclick="window.location.href = 'quiz-page-1.html';"
+  class="sing-up__button-create-my-account"
+>
+  Take the quiz
+</button>
+ <a class="go-to-the-shop" href="catalogue.html"
+  >Go to the shop <img src="assets/images/icon/left.png" alt=""
+/></a>
+</div>
+      </div>
+    </div>
+  </section>
+</div>
+<footer id="footer">
+  <div class="footer__block-title">
+    <img
+      class="footer__block-logo"
+      src="assets/images/icon/logo-v-big.png"
+      alt=""
+    />
+    <div class="footer__company-block">
+      © 2020 Vitamins.com / All rights reserved
+    </div>
+  </div>
+  <div class="footer__block">
+    <h6 class="footer__block-first-li">Shop</h6>
+    <ul>
+      <li>Vitamins & Dietary Supplements</li>
+      <li>Weight Loss</li>
+      <li>Minerals</li>
+      <li>Antioxidants</li>
+      <li>Probiotics</li>
+      <li>Pain Relief</li>
+      <li>Prenatal Vitamins</li>
+    </ul>
+  </div>
+  <div class="footer__block-info">
+    <h6 class="footer__block-first-li">Information</h6>
+    <ul>
+      <li>Terms & Conditions</li>
+      <li>Privacy Policy</li>
+      <li>Shipping & Delivery</li>
+      <li>Subscription Cycle & Billing</li>
+      <li>Return Policy</li>
+    </ul>
+  </div>
+  <div class="footer__block-mail">
+    <h6 class="footer__block-first-li">Contact</h6>
+    <ul>
+      <li>support@medstogo.com</li>
+
+      <li>
+        <a href="https://www.facebook.com/">
+          <img src="assets/images/icon/fb.png" alt="" />
+          <p>Facebook</p></a
+        >
+      </li>
+      <li>
+        <a href="https://www.instagram.com/">
+          <img src="assets/images/icon/i.png" alt="" />
+          <p>Instagram</p></a
+        >
+      </li>
+    </ul>
+  </div>
+</footer>
+
+</div>
+    <!--<footer id="footer">
+  <div class="footer__block-title">
+    <img
+      class="footer__block-logo"
+      src="assets/images/icon/logo-v-big.png"
+      alt=""
+    />
+    <div class="footer__company-block">
+      © 2020 Vitamins.com / All rights reserved
+    </div>
+  </div>
+  <div class="footer__block">
+    <h6 class="footer__block-first-li">Shop</h6>
+    <ul>
+      <li>Vitamins & Dietary Supplements</li>
+      <li>Weight Loss</li>
+      <li>Minerals</li>
+      <li>Antioxidants</li>
+      <li>Probiotics</li>
+      <li>Pain Relief</li>
+      <li>Prenatal Vitamins</li>
+    </ul>
+  </div>
+  <div class="footer__block-info">
+    <h6 class="footer__block-first-li">Information</h6>
+    <ul>
+      <li>Terms & Conditions</li>
+      <li>Privacy Policy</li>
+      <li>Shipping & Delivery</li>
+      <li>Subscription Cycle & Billing</li>
+      <li>Return Policy</li>
+    </ul>
+  </div>
+  <div class="footer__block-mail">
+    <h6 class="footer__block-first-li">Contact</h6>
+    <ul>
+      <li>support@medstogo.com</li>
+
+      <li>
+        <a href="https://www.facebook.com/">
+          <img src="assets/images/icon/fb.png" alt="" />
+          <p>Facebook</p></a
+        >
+      </li>
+      <li>
+        <a href="https://www.instagram.com/">
+          <img src="assets/images/icon/i.png" alt="" />
+          <p>Instagram</p></a
+        >
+      </li>
+    </ul>
+  </div>
+</footer>
+-->
+
+    <!--<script src="/assets/js/app.js"></script>-->
+    <script>
+      function openNav() {
+        document.getElementById("menu-burger").style.width = "100%";
+      }
+      function closeNav() {
+        document.getElementById("menu-burger").style.width = "0";
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

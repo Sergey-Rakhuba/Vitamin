@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <!-- Useful meta tags -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/effra-heavy?styles=16535,16534,16538,16540,16536,16537,16539,16533,16532"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/effra-heavy" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+    <link rel="stylesheet" href="assets/css/text-page.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/quiz.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/footer.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/sing-in.min.css" type="text/css" />
+    <!--<link rel="stylesheet" href="assets/css/sing-up.min.css" type="text/css" />-->
+    <link rel="stylesheet" href="assets/css/pack.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/header.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/catalogue.min.css" type="text/css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="google" content="notranslate" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="" />
+    
+    <title></title>
+  </head>
+  <body>
+    <div class="wrapper"><header id="header">
+  <div class="burger-menu">
+    <button id="burger-btn" class="burger-btn" type="button">
+      <img src="assets/images/icon/menu.png" alt="" />
+    </button>
+  </div>
+  <div class="logo">
+    <a href="index.html"
+      ><img src="assets/images/icon/logo-big.png" alt=""
+    /></a>
+  </div>
+  <div class="header__block">
+    <div class="menu__icon">
+      <a class="user-icon" href="sing-in.html"
+        ><img src="assets/images/icon/icon-user.png" alt=""
+      /></a>
+      <a href=""><img src="assets/images/icon/Cart_alert.png" alt="" /></a>
+    </div>
+    <a class="button-quiz" href="quiz-page-1.html">Take the quiz</a>
+  </div>
+</header>
+<div class="menu-burger">
+  <div class="menu-burger__header">
+    <div class="container">
+      <div class="menu-burger__block-title">
+        <button id="close-btn" type="button">
+          <img src="assets/images/icon/Close_small_black.png" alt="" />
+        </button>
+      </div>
+      <div class="menu-burger__block-title">
+        <img src="assets/images/icon/icon-user.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <div class="menu-burger__body">
+    <ul>
+      <li>
+        <a id="burger-btn-shop" href=""
+          ><h5>Shop</h5>
+          <img src="assets/images/icon/rigch-icon-grey.png" alt=""
+        /></a>
+      </li>
+      <li>
+        <a id="burger-btn-information"
+          ><h5>Information</h5>
+          <img src="assets/images/icon/rigch-icon-grey.png" alt=""
+        /></a>
+      </li>
+      <li>
+        <a class="btn-quiz" href="quiz-page-1.html">Take the quiz</a>
+      </li>
+    </ul>
+  </div>
+  <div class="menu-burger__mail">
+    <p></p>
+    <ul>
+      <li><a href="">support@medstogo.com</a></li>
+      <li>
+        <a class="vitamins" href="index.html">
+          © 2020 Vitamins.com / All rights reserved</a
+        >
+      </li>
+    </ul>
+  </div>
+</div>
+ <div id="shop-page" class="shop-page">
+  <div class="burger-menu__modal-shop">
+    <div class="menu-burger__header">
+      <div class="container">
+        <a class="left-back" id="close-btn-information">
+          <img src="assets/images/icon/Back_arrow.png" alt="" />
+        </a>
+
+        <div id="close-btn-information" class="menu-burger__block-title-shop">
+          <h3>Information</h3>
+        </div>
+      </div>
+    </div>
+    <p></p>
+    <div class="menu-burger__body">
+      <ul>
+        <li><a href="#">Vitamins & Dietary Supplements</a></li>
+        <li><a href="#">Weight Loss</a></li>
+        <li><a href="#">Minerals</a></li>
+        <li><a href="#">Antioxidants</a></li>
+        <li><a href="#">Probiotics</a></li>
+        <li><a href="#">Pain Relief</a></li>
+        <li><a href="#">Prenatal Vitamins</a></li>
+        <li class="salle"><a href="#">Sale%</a></li>
+        <a href="#">All categories</a>
+      </ul>
+    </div>
+
+    <div class="container">
+      <span></span>
+      <h2>Don’t know what vitamins your body needs?</h2>
+      <p>
+        Answer a few simple questions and automaticallyget a personalazed list
+        of vitamins in minutes
+      </p>
+      <button
+        type="button"
+        onclick="window.location.href = 'quiz-page-1.html';"
+        class="sing-up__button-create-my-account"
+      >
+        Take the quiz
+      </button>
+    </div>
+  </div>
+  <a href="quiz-page-1.html">Take the quiz</a>
+</div>
+ <div id="information" class="information">
+  <div class="burger-menu__modal-Information">
+    <div class="menu-burger__header">
+      <div class="container">
+        <a class="left-back" id="close-btn-information">
+          <img src="assets/images/icon/Back_arrow.png" alt="" />
+        </a>
+
+        <div class="menu-burger__block-title-information">
+          <h3>Information</h3>
+        </div>
+      </div>
+    </div>
+    <p></p>
+    <div class="menu-burger__body">
+      <ul>
+        <li>
+          <a href="#">Subscription Cycle & Billing</a>
+        </li>
+        <li>
+          <a href="#">Terms & Conditions</a>
+        </li>
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+        <li><a href="#">Shipping & Delivery</a></li>
+        <li><a href="#">Return Policy</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div  id="body" class="pack">
+  <img
+    class="pack__orange-tor"
+    src="assets/images/icon/Ellipse 11.png"
+    alt=""
+  />
+  <img class="pack__red-tor" src="assets/images/icon/Ellipse 5.png" alt="" />
+  <section>
+    <div class="flex-box">
+      <div class="pack__title">
+        <h1>Alex, we made personalized pack for you!</h1>
+      </div>
+      <div class="pack__sub-title">
+        <h4>Recommenadation</h4>
+      </div>
+      <p class="pack__text">
+        Your recommendation is based on your answers and our database of
+        clinical research. This health plan, made just for you, is recommended
+        for you to feel your best today while supporting long-term health.
+      </p>
+    </div>
+  </section>
+  <img class="pack__orange-ring" src="assets/images/icon/ring3.png" alt="" />
+  <section>
+    <div class="container">
+      <div class="pack__cards">
+        <div class="pack__title-card">
+          <h2>Your Personalized Pack</h2>
+        </div>
+        <div class="flex-box">
+          <div class="pack__card">
+            <div class="container">
+              <img src="assets/images/home/pack1.png" alt="" />
+              <div class="specification">Vitamins & Dietary Supplements</div>
+              <div class="name-prodect">
+                Ortho Molecular Products Orthomega 820
+              </div>
+              <div class="coin">$61.98</div>
+            </div>
+          </div>
+          <div class="pack__card">
+            <div class="container">
+              <img src="assets/images/home/pack2.png" alt="" />
+              <div class="specification">Minerals</div>
+              <div class="name-prodect">
+                Ortho Molecular - Reacted Magnesium
+              </div>
+              <div class="coin">$61.98</div>
+            </div>
+          </div>
+          <div class="pack__card">
+            <div class="container">
+              <img src="assets/images/home/pack1.png" alt="" />
+              <div class="specification">Vitamins & Dietary Supplements</div>
+              <div class="name-prodect">
+                Ortho Molecular Products Orthomega 820
+              </div>
+              <div class="coin">$61.98</div>
+            </div>
+          </div>
+          <div class="pack__card">
+            <div class="container">
+              <img src="assets/images/home/pack2.png" alt="" />
+              <div class="specification">Vitamins & Dietary Supplements</div>
+              <div class="name-prodect">
+                Ortho Molecular Products - Reacted Selenium
+              </div>
+              <div class="coin">$61.98</div>
+            </div>
+          </div>
+        </div>
+        <div class="pack__button-card">
+          <button>Continue</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<footer id="footer">
+  <div class="footer__block-title">
+    <img
+      class="footer__block-logo"
+      src="assets/images/icon/logo-v-big.png"
+      alt=""
+    />
+    <div class="footer__company-block">
+      © 2020 Vitamins.com / All rights reserved
+    </div>
+  </div>
+  <div class="footer__block">
+    <h6 class="footer__block-first-li">Shop</h6>
+    <ul>
+      <li>Vitamins & Dietary Supplements</li>
+      <li>Weight Loss</li>
+      <li>Minerals</li>
+      <li>Antioxidants</li>
+      <li>Probiotics</li>
+      <li>Pain Relief</li>
+      <li>Prenatal Vitamins</li>
+    </ul>
+  </div>
+  <div class="footer__block-info">
+    <h6 class="footer__block-first-li">Information</h6>
+    <ul>
+      <li>Terms & Conditions</li>
+      <li>Privacy Policy</li>
+      <li>Shipping & Delivery</li>
+      <li>Subscription Cycle & Billing</li>
+      <li>Return Policy</li>
+    </ul>
+  </div>
+  <div class="footer__block-mail">
+    <h6 class="footer__block-first-li">Contact</h6>
+    <ul>
+      <li>support@medstogo.com</li>
+
+      <li>
+        <a href="https://www.facebook.com/">
+          <img src="assets/images/icon/fb.png" alt="" />
+          <p>Facebook</p></a
+        >
+      </li>
+      <li>
+        <a href="https://www.instagram.com/">
+          <img src="assets/images/icon/i.png" alt="" />
+          <p>Instagram</p></a
+        >
+      </li>
+    </ul>
+  </div>
+</footer>
+
+</div>
+    <!--<footer id="footer">
+  <div class="footer__block-title">
+    <img
+      class="footer__block-logo"
+      src="assets/images/icon/logo-v-big.png"
+      alt=""
+    />
+    <div class="footer__company-block">
+      © 2020 Vitamins.com / All rights reserved
+    </div>
+  </div>
+  <div class="footer__block">
+    <h6 class="footer__block-first-li">Shop</h6>
+    <ul>
+      <li>Vitamins & Dietary Supplements</li>
+      <li>Weight Loss</li>
+      <li>Minerals</li>
+      <li>Antioxidants</li>
+      <li>Probiotics</li>
+      <li>Pain Relief</li>
+      <li>Prenatal Vitamins</li>
+    </ul>
+  </div>
+  <div class="footer__block-info">
+    <h6 class="footer__block-first-li">Information</h6>
+    <ul>
+      <li>Terms & Conditions</li>
+      <li>Privacy Policy</li>
+      <li>Shipping & Delivery</li>
+      <li>Subscription Cycle & Billing</li>
+      <li>Return Policy</li>
+    </ul>
+  </div>
+  <div class="footer__block-mail">
+    <h6 class="footer__block-first-li">Contact</h6>
+    <ul>
+      <li>support@medstogo.com</li>
+
+      <li>
+        <a href="https://www.facebook.com/">
+          <img src="assets/images/icon/fb.png" alt="" />
+          <p>Facebook</p></a
+        >
+      </li>
+      <li>
+        <a href="https://www.instagram.com/">
+          <img src="assets/images/icon/i.png" alt="" />
+          <p>Instagram</p></a
+        >
+      </li>
+    </ul>
+  </div>
+</footer>
+-->
+
+    <!--<script src="/assets/js/app.js"></script>-->
+    <script>
+      function openNav() {
+        document.getElementById("menu-burger").style.width = "100%";
+      }
+      function closeNav() {
+        document.getElementById("menu-burger").style.width = "0";
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
